@@ -1,0 +1,1100 @@
+{
+  "meta": {
+    "generated_at": "2026-07-07T07:31:00+09:00",
+    "target_date": "2026-07-07",
+    "period_days": 30,
+    "lead_accurate_start": "2026-06-14",
+    "schedule_data_start": "2026-06-27",
+    "missing_days": [
+      "2026-07-06",
+      "2026-07-07"
+    ],
+    "notes": [
+      "これは合成サンプルデータです（実数ではありません）。",
+      "6/13以前はタップ数ベース・登録CPA過小評価の可能性。"
+    ],
+    "data_source": "sample",
+    "account_label": "SBC1",
+    "dashboard_title": "ROAM"
+  },
+  "kpi_canonical": {
+    "line_cpa": {
+      "target": 2200,
+      "acceptable": 2500
+    },
+    "consult_cpa": {
+      "target": 22000,
+      "acceptable": 25000,
+      "danger": 30000
+    },
+    "ctr_target": 1.7,
+    "cpc_target": 190,
+    "cpm_target": null,
+    "roas_target": 400,
+    "conversion": null,
+    "metric_directions": {
+      "spend": "higher",
+      "leads": "higher",
+      "lead_cpa": "lower",
+      "consult_cpa": "lower",
+      "applications": "higher",
+      "ctr": "higher",
+      "cpc": "lower",
+      "cpm": "lower",
+      "reach": "higher",
+      "schedule": "higher",
+      "yield_rate": "higher"
+    }
+  },
+  "daily_series": [
+    {
+      "date": "2026-06-08",
+      "spend": 80138,
+      "impressions": 22955,
+      "clicks": 436,
+      "ctr": 1.9,
+      "cpc": 184,
+      "cpm": 3491,
+      "leads": 39,
+      "lead_cpa": 2055,
+      "applications": 4,
+      "consult_spend": 80138,
+      "consult_cpa": 20034,
+      "lead_accurate": false
+    },
+    {
+      "date": "2026-06-09",
+      "spend": 84931,
+      "impressions": 28053,
+      "clicks": 505,
+      "ctr": 1.8,
+      "cpc": 168,
+      "cpm": 3028,
+      "leads": 44,
+      "lead_cpa": 1930,
+      "applications": 3,
+      "consult_spend": 84931,
+      "consult_cpa": 28310,
+      "lead_accurate": false
+    },
+    {
+      "date": "2026-06-10",
+      "spend": 76561,
+      "impressions": 17997,
+      "clicks": 351,
+      "ctr": 1.95,
+      "cpc": 218,
+      "cpm": 4254,
+      "leads": 36,
+      "lead_cpa": 2127,
+      "applications": 3,
+      "consult_spend": 76561,
+      "consult_cpa": 25520,
+      "lead_accurate": false
+    },
+    {
+      "date": "2026-06-11",
+      "spend": 79045,
+      "impressions": 20066,
+      "clicks": 349,
+      "ctr": 1.74,
+      "cpc": 226,
+      "cpm": 3939,
+      "leads": 37,
+      "lead_cpa": 2136,
+      "applications": 3,
+      "consult_spend": 79045,
+      "consult_cpa": 26348,
+      "lead_accurate": false
+    },
+    {
+      "date": "2026-06-12",
+      "spend": 74702,
+      "impressions": 15732,
+      "clicks": 317,
+      "ctr": 2.02,
+      "cpc": 236,
+      "cpm": 4748,
+      "leads": 33,
+      "lead_cpa": 2264,
+      "applications": 3,
+      "consult_spend": 74702,
+      "consult_cpa": 24901,
+      "lead_accurate": false
+    },
+    {
+      "date": "2026-06-13",
+      "spend": 74842,
+      "impressions": 22024,
+      "clicks": 375,
+      "ctr": 1.7,
+      "cpc": 200,
+      "cpm": 3398,
+      "leads": 38,
+      "lead_cpa": 1970,
+      "applications": 4,
+      "consult_spend": 74842,
+      "consult_cpa": 18710,
+      "lead_accurate": false
+    },
+    {
+      "date": "2026-06-14",
+      "spend": 82985,
+      "impressions": 17626,
+      "clicks": 363,
+      "ctr": 2.06,
+      "cpc": 229,
+      "cpm": 4708,
+      "leads": 36,
+      "lead_cpa": 2305,
+      "applications": 3,
+      "consult_spend": 82985,
+      "consult_cpa": 27662,
+      "lead_accurate": true
+    },
+    {
+      "date": "2026-06-15",
+      "spend": 69629,
+      "impressions": 19977,
+      "clicks": 392,
+      "ctr": 1.96,
+      "cpc": 178,
+      "cpm": 3485,
+      "leads": 33,
+      "lead_cpa": 2110,
+      "applications": 2,
+      "consult_spend": 69629,
+      "consult_cpa": 34814,
+      "lead_accurate": true
+    },
+    {
+      "date": "2026-06-16",
+      "spend": 69644,
+      "impressions": 24101,
+      "clicks": 445,
+      "ctr": 1.85,
+      "cpc": 157,
+      "cpm": 2890,
+      "leads": 35,
+      "lead_cpa": 1990,
+      "applications": 3,
+      "consult_spend": 69644,
+      "consult_cpa": 23215,
+      "lead_accurate": true
+    },
+    {
+      "date": "2026-06-17",
+      "spend": 80640,
+      "impressions": 19410,
+      "clicks": 403,
+      "ctr": 2.08,
+      "cpc": 200,
+      "cpm": 4155,
+      "leads": 41,
+      "lead_cpa": 1967,
+      "applications": 3,
+      "consult_spend": 80640,
+      "consult_cpa": 26880,
+      "lead_accurate": true
+    },
+    {
+      "date": "2026-06-18",
+      "spend": 71622,
+      "impressions": 17059,
+      "clicks": 357,
+      "ctr": 2.09,
+      "cpc": 201,
+      "cpm": 4198,
+      "leads": 38,
+      "lead_cpa": 1885,
+      "applications": 3,
+      "consult_spend": 71622,
+      "consult_cpa": 23874,
+      "lead_accurate": true
+    },
+    {
+      "date": "2026-06-19",
+      "spend": 78558,
+      "impressions": 27426,
+      "clicks": 471,
+      "ctr": 1.72,
+      "cpc": 167,
+      "cpm": 2864,
+      "leads": 41,
+      "lead_cpa": 1916,
+      "applications": 3,
+      "consult_spend": 78558,
+      "consult_cpa": 26186,
+      "lead_accurate": true
+    },
+    {
+      "date": "2026-06-20",
+      "spend": 75490,
+      "impressions": 18787,
+      "clicks": 325,
+      "ctr": 1.73,
+      "cpc": 232,
+      "cpm": 4018,
+      "leads": 35,
+      "lead_cpa": 2157,
+      "applications": 3,
+      "consult_spend": 75490,
+      "consult_cpa": 25163,
+      "lead_accurate": true
+    },
+    {
+      "date": "2026-06-21",
+      "spend": 76021,
+      "impressions": 23646,
+      "clicks": 410,
+      "ctr": 1.73,
+      "cpc": 185,
+      "cpm": 3215,
+      "leads": 37,
+      "lead_cpa": 2055,
+      "applications": 3,
+      "consult_spend": 76021,
+      "consult_cpa": 25340,
+      "lead_accurate": true
+    },
+    {
+      "date": "2026-06-22",
+      "spend": 72912,
+      "impressions": 19991,
+      "clicks": 396,
+      "ctr": 1.98,
+      "cpc": 184,
+      "cpm": 3647,
+      "leads": 34,
+      "lead_cpa": 2144,
+      "applications": 3,
+      "consult_spend": 72912,
+      "consult_cpa": 24304,
+      "lead_accurate": true
+    },
+    {
+      "date": "2026-06-23",
+      "spend": 75682,
+      "impressions": 25769,
+      "clicks": 503,
+      "ctr": 1.95,
+      "cpc": 150,
+      "cpm": 2937,
+      "leads": 41,
+      "lead_cpa": 1846,
+      "applications": 3,
+      "consult_spend": 75682,
+      "consult_cpa": 25227,
+      "lead_accurate": true
+    },
+    {
+      "date": "2026-06-24",
+      "spend": 78746,
+      "impressions": 28438,
+      "clicks": 514,
+      "ctr": 1.81,
+      "cpc": 153,
+      "cpm": 2769,
+      "leads": 43,
+      "lead_cpa": 1831,
+      "applications": 3,
+      "consult_spend": 78746,
+      "consult_cpa": 26249,
+      "lead_accurate": true
+    },
+    {
+      "date": "2026-06-25",
+      "spend": 82361,
+      "impressions": 28896,
+      "clicks": 532,
+      "ctr": 1.84,
+      "cpc": 155,
+      "cpm": 2850,
+      "leads": 43,
+      "lead_cpa": 1915,
+      "applications": 4,
+      "consult_spend": 82361,
+      "consult_cpa": 20590,
+      "lead_accurate": true
+    },
+    {
+      "date": "2026-06-26",
+      "spend": 71541,
+      "impressions": 16458,
+      "clicks": 292,
+      "ctr": 1.77,
+      "cpc": 245,
+      "cpm": 4347,
+      "leads": 31,
+      "lead_cpa": 2308,
+      "applications": 2,
+      "consult_spend": 71541,
+      "consult_cpa": 35770,
+      "lead_accurate": true
+    },
+    {
+      "date": "2026-06-27",
+      "spend": 73631,
+      "impressions": 23815,
+      "clicks": 443,
+      "ctr": 1.86,
+      "cpc": 166,
+      "cpm": 3092,
+      "leads": 40,
+      "lead_cpa": 1841,
+      "applications": 4,
+      "consult_spend": 73631,
+      "consult_cpa": 18408,
+      "lead_accurate": true
+    },
+    {
+      "date": "2026-06-28",
+      "spend": 78691,
+      "impressions": 17516,
+      "clicks": 359,
+      "ctr": 2.05,
+      "cpc": 219,
+      "cpm": 4493,
+      "leads": 35,
+      "lead_cpa": 2248,
+      "applications": 3,
+      "consult_spend": 78691,
+      "consult_cpa": 26230,
+      "lead_accurate": true
+    },
+    {
+      "date": "2026-06-29",
+      "spend": 86345,
+      "impressions": 28852,
+      "clicks": 579,
+      "ctr": 2.01,
+      "cpc": 149,
+      "cpm": 2993,
+      "leads": 45,
+      "lead_cpa": 1919,
+      "applications": 4,
+      "consult_spend": 86345,
+      "consult_cpa": 21586,
+      "lead_accurate": true
+    },
+    {
+      "date": "2026-06-30",
+      "spend": 70641,
+      "impressions": 20401,
+      "clicks": 386,
+      "ctr": 1.89,
+      "cpc": 183,
+      "cpm": 3463,
+      "leads": 37,
+      "lead_cpa": 1909,
+      "applications": 3,
+      "consult_spend": 70641,
+      "consult_cpa": 23547,
+      "lead_accurate": true
+    },
+    {
+      "date": "2026-07-01",
+      "spend": 79094,
+      "impressions": 20957,
+      "clicks": 413,
+      "ctr": 1.97,
+      "cpc": 192,
+      "cpm": 3774,
+      "leads": 39,
+      "lead_cpa": 2028,
+      "applications": 4,
+      "consult_spend": 79094,
+      "consult_cpa": 19774,
+      "lead_accurate": true
+    },
+    {
+      "date": "2026-07-02",
+      "spend": 80953,
+      "impressions": 23589,
+      "clicks": 493,
+      "ctr": 2.09,
+      "cpc": 164,
+      "cpm": 3432,
+      "leads": 42,
+      "lead_cpa": 1927,
+      "applications": 4,
+      "consult_spend": 80953,
+      "consult_cpa": 20238,
+      "lead_accurate": true
+    },
+    {
+      "date": "2026-07-03",
+      "spend": 75944,
+      "impressions": 22830,
+      "clicks": 477,
+      "ctr": 2.09,
+      "cpc": 159,
+      "cpm": 3327,
+      "leads": 41,
+      "lead_cpa": 1852,
+      "applications": 4,
+      "consult_spend": 75944,
+      "consult_cpa": 18986,
+      "lead_accurate": true
+    },
+    {
+      "date": "2026-07-04",
+      "spend": 86613,
+      "impressions": 21602,
+      "clicks": 427,
+      "ctr": 1.98,
+      "cpc": 203,
+      "cpm": 4009,
+      "leads": 44,
+      "lead_cpa": 1968,
+      "applications": 4,
+      "consult_spend": 86613,
+      "consult_cpa": 21653,
+      "lead_accurate": true
+    },
+    {
+      "date": "2026-07-05",
+      "spend": 78941,
+      "impressions": 18729,
+      "clicks": 331,
+      "ctr": 1.77,
+      "cpc": 238,
+      "cpm": 4215,
+      "leads": 36,
+      "lead_cpa": 2193,
+      "applications": 3,
+      "consult_spend": 78941,
+      "consult_cpa": 26314,
+      "lead_accurate": true
+    },
+    {
+      "date": "2026-07-06",
+      "spend": 74324,
+      "impressions": 22244,
+      "clicks": 447,
+      "ctr": 2.01,
+      "cpc": 166,
+      "cpm": 3341,
+      "leads": 39,
+      "lead_cpa": 1906,
+      "applications": null,
+      "consult_spend": null,
+      "consult_cpa": null,
+      "lead_accurate": true
+    },
+    {
+      "date": "2026-07-07",
+      "spend": 72275,
+      "impressions": 19753,
+      "clicks": 367,
+      "ctr": 1.86,
+      "cpc": 197,
+      "cpm": 3659,
+      "leads": 34,
+      "lead_cpa": 2126,
+      "applications": null,
+      "consult_spend": null,
+      "consult_cpa": null,
+      "lead_accurate": true
+    }
+  ],
+  "campaigns": [
+    {
+      "name": "24/12/22 SBC",
+      "optimization_type": "LP最適化",
+      "yesterday": {
+        "spend": 52000,
+        "lead": 24,
+        "cpa": 2180,
+        "cpc": 165,
+        "ctr": 1.82,
+        "yield_rate": 41.0
+      },
+      "d7": {
+        "spend": 360000,
+        "lead": 161,
+        "cpa": 2240,
+        "cpc": 172,
+        "ctr": 1.78,
+        "yield_rate": 39.5
+      },
+      "d3": {
+        "spend": 150000,
+        "lead": 71,
+        "cpa": 2110,
+        "cpc": 168,
+        "ctr": 1.85,
+        "yield_rate": 42.1
+      }
+    },
+    {
+      "name": "26/4/23 SBC",
+      "optimization_type": "LINE最適化",
+      "yesterday": {
+        "spend": 26000,
+        "lead": 10,
+        "cpa": 2620,
+        "cpc": 210,
+        "ctr": 1.44,
+        "yield_rate": null
+      },
+      "d7": {
+        "spend": 175000,
+        "lead": 70,
+        "cpa": 2510,
+        "cpc": 205,
+        "ctr": 1.51,
+        "yield_rate": null
+      },
+      "d3": {
+        "spend": 78000,
+        "lead": 29,
+        "cpa": 2680,
+        "cpc": 214,
+        "ctr": 1.4,
+        "yield_rate": null
+      }
+    }
+  ],
+  "actions": {
+    "p2_actions": [
+      {
+        "priority": "中",
+        "target": "26/4/23 SBC",
+        "how": "獲得単価を監視し改善余地を検討",
+        "why": "昨日CPA 2,620円（目標比 +19.1% / 注意）。7日CPA 2,510円 / 3日CPA 2,680円"
+      },
+      {
+        "priority": "低",
+        "target": "24/12/22 SBC",
+        "how": "増額余地を検討",
+        "why": "昨日CPA 2,180円 は目標2,200円以下で安定。"
+      }
+    ],
+    "orchestrator_top": {
+      "action": "26/4/23 SBC を獲得単価の改善策を検討",
+      "reason": "昨日CPA 2,620円（許容2,500円超過）。申込CPAは実データ未反映のため参考。",
+      "staff": [
+        "P2打ち手"
+      ],
+      "abnormal": true
+    },
+    "p3_alerts": [
+      "26/4/23 SBC: 全体CPA 2,620円（許容2,500円超過）"
+    ],
+    "maintain_reason": "全キャンペーンで即対応が必要なCPA悪化・獲得ゼロ・歩留まり急落は見られない。"
+  },
+  "creatives": [
+    {
+      "ad_id": "sample_ad_1",
+      "ad_name": "CR1",
+      "status": "ACTIVE",
+      "campaign_name": "24/12/22 SBC",
+      "spend_7d": 49104,
+      "spend_total": 1178496,
+      "leads": 62,
+      "lead_cpa": 1980,
+      "reach": 1974800,
+      "ctr": 2.1,
+      "schedule_count": 9,
+      "launch_days": 168,
+      "frequency_7d": 1.97,
+      "verdict": "win",
+      "daily": [
+        {
+          "date": "2026-07-01",
+          "leads": 9,
+          "spend": 7015,
+          "schedule": 0
+        },
+        {
+          "date": "2026-07-02",
+          "leads": 8,
+          "spend": 7015,
+          "schedule": 0
+        },
+        {
+          "date": "2026-07-03",
+          "leads": 8,
+          "spend": 7015,
+          "schedule": 0
+        },
+        {
+          "date": "2026-07-04",
+          "leads": 9,
+          "spend": 7015,
+          "schedule": 0
+        },
+        {
+          "date": "2026-07-05",
+          "leads": 9,
+          "spend": 7015,
+          "schedule": 0
+        },
+        {
+          "date": "2026-07-06",
+          "leads": 9,
+          "spend": 7015,
+          "schedule": 1
+        },
+        {
+          "date": "2026-07-07",
+          "leads": 9,
+          "spend": 7015,
+          "schedule": 0
+        }
+      ]
+    },
+    {
+      "ad_id": "sample_ad_2",
+      "ad_name": "CR2",
+      "status": "ACTIVE",
+      "campaign_name": "26/4/23 SBC",
+      "spend_7d": 36608,
+      "spend_total": 794917,
+      "leads": 44,
+      "lead_cpa": 2080,
+      "reach": 1579183,
+      "ctr": 1.92,
+      "schedule_count": 6,
+      "launch_days": 152,
+      "frequency_7d": 1.6,
+      "verdict": "win",
+      "daily": [
+        {
+          "date": "2026-07-01",
+          "leads": 6,
+          "spend": 5230,
+          "schedule": 1
+        },
+        {
+          "date": "2026-07-02",
+          "leads": 6,
+          "spend": 5230,
+          "schedule": 1
+        },
+        {
+          "date": "2026-07-03",
+          "leads": 6,
+          "spend": 5230,
+          "schedule": 1
+        },
+        {
+          "date": "2026-07-04",
+          "leads": 6,
+          "spend": 5230,
+          "schedule": 1
+        },
+        {
+          "date": "2026-07-05",
+          "leads": 6,
+          "spend": 5230,
+          "schedule": 0
+        },
+        {
+          "date": "2026-07-06",
+          "leads": 5,
+          "spend": 5230,
+          "schedule": 0
+        },
+        {
+          "date": "2026-07-07",
+          "leads": 6,
+          "spend": 5230,
+          "schedule": 0
+        }
+      ]
+    },
+    {
+      "ad_id": "sample_ad_3",
+      "ad_name": "CR3",
+      "status": "ACTIVE",
+      "campaign_name": "24/12/22 SBC",
+      "spend_7d": 27200,
+      "spend_total": 159314,
+      "leads": 10,
+      "lead_cpa": 2720,
+      "reach": 800000,
+      "ctr": 1.65,
+      "schedule_count": 3,
+      "launch_days": 41,
+      "frequency_7d": 1.92,
+      "verdict": "watch",
+      "daily": [
+        {
+          "date": "2026-07-01",
+          "leads": 2,
+          "spend": 3886,
+          "schedule": 1
+        },
+        {
+          "date": "2026-07-02",
+          "leads": 2,
+          "spend": 3886,
+          "schedule": 1
+        },
+        {
+          "date": "2026-07-03",
+          "leads": 1,
+          "spend": 3886,
+          "schedule": 0
+        },
+        {
+          "date": "2026-07-04",
+          "leads": 0,
+          "spend": 3886,
+          "schedule": 0
+        },
+        {
+          "date": "2026-07-05",
+          "leads": 2,
+          "spend": 3886,
+          "schedule": 0
+        },
+        {
+          "date": "2026-07-06",
+          "leads": 1,
+          "spend": 3886,
+          "schedule": 1
+        },
+        {
+          "date": "2026-07-07",
+          "leads": 2,
+          "spend": 3886,
+          "schedule": 0
+        }
+      ]
+    },
+    {
+      "ad_id": "sample_ad_4",
+      "ad_name": "CR4",
+      "status": "ACTIVE",
+      "campaign_name": "26/4/23 SBC",
+      "spend_7d": 45000,
+      "spend_total": 180000,
+      "leads": 15,
+      "lead_cpa": 2400,
+      "reach": 600000,
+      "ctr": 1.71,
+      "schedule_count": 1,
+      "launch_days": 28,
+      "frequency_7d": 2.5,
+      "verdict": "watch",
+      "daily": [
+        {
+          "date": "2026-07-01",
+          "leads": 2,
+          "spend": 6429,
+          "schedule": 1
+        },
+        {
+          "date": "2026-07-02",
+          "leads": 3,
+          "spend": 6429,
+          "schedule": 1
+        },
+        {
+          "date": "2026-07-03",
+          "leads": 2,
+          "spend": 6429,
+          "schedule": 1
+        },
+        {
+          "date": "2026-07-04",
+          "leads": 1,
+          "spend": 6429,
+          "schedule": 0
+        },
+        {
+          "date": "2026-07-05",
+          "leads": 2,
+          "spend": 6429,
+          "schedule": 1
+        },
+        {
+          "date": "2026-07-06",
+          "leads": 2,
+          "spend": 6429,
+          "schedule": 0
+        },
+        {
+          "date": "2026-07-07",
+          "leads": 1,
+          "spend": 6429,
+          "schedule": 0
+        }
+      ]
+    },
+    {
+      "ad_id": "sample_ad_5",
+      "ad_name": "CR5",
+      "status": "ACTIVE",
+      "campaign_name": "24/12/22 SBC",
+      "spend_7d": 25000,
+      "spend_total": 42857,
+      "leads": 0,
+      "lead_cpa": null,
+      "reach": 3500,
+      "ctr": 1.28,
+      "schedule_count": 0,
+      "launch_days": 12,
+      "frequency_7d": 1.38,
+      "verdict": "pause_candidate",
+      "daily": [
+        {
+          "date": "2026-07-01",
+          "leads": 0,
+          "spend": 3571,
+          "schedule": 0
+        },
+        {
+          "date": "2026-07-02",
+          "leads": 1,
+          "spend": 3571,
+          "schedule": 0
+        },
+        {
+          "date": "2026-07-03",
+          "leads": 0,
+          "spend": 3571,
+          "schedule": 0
+        },
+        {
+          "date": "2026-07-04",
+          "leads": 0,
+          "spend": 3571,
+          "schedule": 0
+        },
+        {
+          "date": "2026-07-05",
+          "leads": 0,
+          "spend": 3571,
+          "schedule": 0
+        },
+        {
+          "date": "2026-07-06",
+          "leads": 0,
+          "spend": 3571,
+          "schedule": 0
+        },
+        {
+          "date": "2026-07-07",
+          "leads": 0,
+          "spend": 3571,
+          "schedule": 0
+        }
+      ]
+    },
+    {
+      "ad_id": "sample_ad_6",
+      "ad_name": "CR6",
+      "status": "ACTIVE",
+      "campaign_name": "26/4/23 SBC",
+      "spend_7d": 15000,
+      "spend_total": 2143,
+      "leads": 2,
+      "lead_cpa": null,
+      "reach": 50000,
+      "ctr": 1.55,
+      "schedule_count": 0,
+      "launch_days": 1,
+      "frequency_7d": 1.94,
+      "verdict": "pre_judge",
+      "daily": [
+        {
+          "date": "2026-07-01",
+          "leads": 0,
+          "spend": 2143,
+          "schedule": 0
+        },
+        {
+          "date": "2026-07-02",
+          "leads": 0,
+          "spend": 2143,
+          "schedule": 0
+        },
+        {
+          "date": "2026-07-03",
+          "leads": 0,
+          "spend": 2143,
+          "schedule": 0
+        },
+        {
+          "date": "2026-07-04",
+          "leads": 0,
+          "spend": 2143,
+          "schedule": 0
+        },
+        {
+          "date": "2026-07-05",
+          "leads": 0,
+          "spend": 2143,
+          "schedule": 0
+        },
+        {
+          "date": "2026-07-06",
+          "leads": 0,
+          "spend": 2143,
+          "schedule": 0
+        },
+        {
+          "date": "2026-07-07",
+          "leads": 1,
+          "spend": 2143,
+          "schedule": 0
+        }
+      ]
+    }
+  ],
+  "pause_candidates": {
+    "recent_since": "2026-07-01",
+    "recent_until": "2026-07-07",
+    "target_cpa": 2200,
+    "acceptable_cpa": 2500,
+    "candidates": [
+      {
+        "ad_id": "sample_ad_3",
+        "ad_name": "CR3",
+        "recent_spend": 27200,
+        "recent_lead": 10,
+        "recent_cpa": 2720,
+        "cumulative_cpa": 2650,
+        "schedule": 3,
+        "reason": "直近7日: 登録CPA 2,720円 > 許容2,500円（canonical）、消化27,200円 >= 評価下限22,000円（目標CPA×10）",
+        "pause_level": "ad"
+      }
+    ],
+    "fetch_failed": false
+  },
+  "funnel": {
+    "period_label": "直近7日（6/30〜7/6）",
+    "stages": [
+      {
+        "key": "impressions",
+        "label": "インプレッション",
+        "value": 2680000
+      },
+      {
+        "key": "link_click",
+        "label": "リンククリック",
+        "value": 46800
+      },
+      {
+        "key": "lp_tap",
+        "label": "LPタップ",
+        "value": 12400
+      },
+      {
+        "key": "lead",
+        "label": "LINE登録",
+        "value": 231
+      },
+      {
+        "key": "application",
+        "label": "個別相談申込",
+        "value": 22
+      }
+    ],
+    "yield_trend": [
+      {
+        "date": "2026-07-01",
+        "yield_rate": 34.2
+      },
+      {
+        "date": "2026-07-02",
+        "yield_rate": 38.1
+      },
+      {
+        "date": "2026-07-03",
+        "yield_rate": 34.2
+      },
+      {
+        "date": "2026-07-04",
+        "yield_rate": 36.4
+      },
+      {
+        "date": "2026-07-05",
+        "yield_rate": 37.3
+      },
+      {
+        "date": "2026-07-06",
+        "yield_rate": 34.4
+      },
+      {
+        "date": "2026-07-07",
+        "yield_rate": 35.9
+      }
+    ],
+    "diagnosis": [
+      {
+        "step": 1,
+        "title": "CR枯れ（最頻）",
+        "hint": "個別予約が入らなくなったか。CR別CTR低下・予約減を見る",
+        "indicators": [
+          "CR別トラッキング（CTR低下・予約数）"
+        ]
+      },
+      {
+        "step": 2,
+        "title": "営業枠",
+        "hint": "担当の休日・予定埋まりで候補日が減っていないか（正常枠数は壁打ち待ち）",
+        "indicators": [
+          "※現状データ未接続（Wiki監査#3の壁打ち後）"
+        ]
+      },
+      {
+        "step": 3,
+        "title": "LINE後ファネル",
+        "hint": "誤シナリオ配信等の動作不良。登録→申込転換率で見る",
+        "indicators": [
+          "転換率（登録→申込・転換率監視の実装後に接続）"
+        ]
+      },
+      {
+        "step": 4,
+        "title": "オーディエンス",
+        "hint": "類似1%が狭くなっていないか → 類似3%で組み直し",
+        "indicators": [
+          "※現状データ未接続（Wiki監査#5の壁打ち後）"
+        ]
+      },
+      {
+        "step": 5,
+        "title": "季節・外部要因",
+        "hint": "①〜④で説明がつかない時のみ（連休前後等）。該当なら2週間様子見",
+        "indicators": [
+          "日次サマリーの推移で急変の有無"
+        ]
+      }
+    ],
+    "conversion_rate": null
+  },
+  "p8": {
+    "window_label": "直近3ヶ月（2026-04〜06 確定分）",
+    "r1": 59.6,
+    "r2": 32.3,
+    "avg_price": 402000,
+    "total_apps": 52,
+    "total_seats": 31,
+    "total_deals": 10,
+    "sufficient": true,
+    "dynamic": {
+      "target": 20800,
+      "yellow": 23900,
+      "red": 28500
+    },
+    "current": {
+      "target": 22000,
+      "yellow": 25000,
+      "red": 30000
+    },
+    "seat_normal": [
+      55,
+      68
+    ],
+    "deal_normal": [
+      30,
+      35
+    ]
+  }
+}
